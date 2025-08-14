@@ -106,7 +106,7 @@ export default function Intro() {
 
         <a
           className="group bg-white dark:bg-gray-800 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:border-white/20"
-          href="/CvUpdated.pdf"
+          href="/CV.pdf"
           download
         >
           Download CV{" "}
