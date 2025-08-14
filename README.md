@@ -73,5 +73,5 @@ npm install
 npm run dev
 
 <h2>Demo Project</h2>
-![Portfolio Screenshot](./src/assets/source/porfolio.png)
+![Portfolio Screenshot](./public/images/porfolio.png)
 ```
