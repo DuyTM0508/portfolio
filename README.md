@@ -71,7 +71,4 @@ npm install
 
 # Start development server
 npm run dev
-
-<h2>Demo Project</h2>
-![Portfolio Screenshot](/images/portfolio.png)
 ```
