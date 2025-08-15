@@ -6,6 +6,7 @@ import greenHappy from "./source/greenHappy.png";
 import blog from "./source/blog.png";
 import akts from "./source/akts.png";
 import porfolio from "./source/porfolio.png";
+import handshop from "./source/2handshop.png";
 
 export const ImageSources = {
   imgProfile,
@@ -16,4 +17,5 @@ export const ImageSources = {
   blog,
   akts,
   porfolio,
+  handshop,
 };

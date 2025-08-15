@@ -1,5 +1,5 @@
 import { ImageSources } from "@/assets";
-import { FaUserGraduate } from "react-icons/fa";
+import { FaBriefcase, FaCode, FaGraduationCap, FaTrophy } from "react-icons/fa";
 
 export const links = [
   {
@@ -30,36 +30,93 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Good Student Semester Fall 2024",
-    location: "FPT UNIVERSITY",
+    title: "Bachelor in Software Engineering",
+    location: "FPT University, Hà Nội",
     description:
-      "Participated in a semester-long project focused on enhancing student engagement through a digital platform.",
-    icon: FaUserGraduate,
-    date: "02/2025",
-  },
-  {
-    title: "Good Student Semester Fall 2023",
-    location: "FPT UNIVERSITY",
-    description:
-      "Participated in a semester-long project focused on enhancing student engagement through a digital platform.",
-    icon: FaUserGraduate,
-    date: "02/2024",
-  },
-  {
-    title: "Good Student Semester Summer 2023",
-    location: "FPT UNIVERSITY",
-    description:
-      "Participated in a semester-long project focused on enhancing student engagement through a digital platform.",
-    icon: FaUserGraduate,
-    date: "10/2023",
+      "Pursued a degree in Software Engineering with a GPA of 7.5/10. Gained foundational knowledge in frontend development, API integration, and collaborative projects.",
+    icon: FaGraduationCap,
+    date: "08/2021 - 08/2025",
   },
   {
     title: "Good Student Semester Spring 2023",
-    location: "FPT UNIVERSITY",
+    location: "FPT University, Hà Nội",
     description:
-      "Built a fully responsive, user-friendly e-commerce frontend tailored for second-hand products, delivering a smooth shopping experience across devices.",
-    icon: FaUserGraduate,
+      "Awarded for outstanding academic performance during the Spring 2023 semester.",
+    icon: FaTrophy,
     date: "06/2023",
+  },
+  {
+    title: "Good Student Semester Summer 2023",
+    location: "FPT University, Hà Nội",
+    description:
+      "Awarded for outstanding academic performance during the Summer 2023 semester.",
+    icon: FaTrophy,
+    date: "10/2023",
+  },
+  {
+    title: "Good Student Semester Fall 2023",
+    location: "FPT University, Hà Nội",
+    description:
+      "Awarded for outstanding academic performance during the Fall 2023 semester.",
+    icon: FaTrophy,
+    date: "02/2024",
+  },
+  {
+    title: "Frontend Developer",
+    location: "Next Level Solution, Hà Nội",
+    description:
+      "Integrated APIs for Pharma project with authentication and error handling. Developed responsive UI for ShopWithMe (https://mlm.shopwithme.biz/). Handled API integration for Kumology sprints, focusing on data mapping and performance.",
+    icon: FaBriefcase,
+    date: "05/2024 - 11/2024",
+  },
+  {
+    title: "Blog Platform (MERN Stack)",
+    location: "Personal Project",
+    description:
+      "Built a full-featured blogging platform using MongoDB, Express.js, React, Node.js, Cloudinary, and Postman. Implemented responsive UI, user authentication, rich text editor, comments, and SEO optimizations. GitHub: github.com/DuyTM0508/blog.",
+    icon: FaCode,
+    date: "09/2024 - 11/2024",
+  },
+  {
+    title: "Good Student Semester Fall 2024",
+    location: "FPT University, Hà Nội",
+    description:
+      "Awarded for outstanding academic performance during the Fall 2024 semester.",
+    icon: FaTrophy,
+    date: "02/2025",
+  },
+  {
+    title: "Frontend Developer - Second-Hand E-commerce Platform",
+    location: "FPT University, Hà Nội",
+    description:
+      "Built a responsive e-commerce frontend for second-hand products using React, TypeScript, PayOS, Azure Blob Storage, and RESTful APIs. Integrated secure payments, managed product images, and ensured mobile-first design. Live at shopping.2handshop.id.vn.",
+    icon: FaCode,
+    date: "01/2025 - 04/2025",
+  },
+  {
+    title: "Frontend Developer - GreenHappy Eco-friendly E-commerce Platform",
+    location: "FPT University, Hà Nội",
+    description:
+      "Developed a responsive e-commerce site for plantable greeting cards using React, TypeScript, Tailwind CSS, RESTful APIs, and Azure Blob Storage. Emphasized sustainability storytelling and fast-loading visuals. Live at greenhappy.id.vn.",
+    icon: FaCode,
+    date: "01/2025 - 04/2025",
+  },
+  {
+    title: "Personal Portfolio Website",
+    location: "Personal Project",
+    description:
+      "Designed and developed a modern, responsive portfolio using Next.js, TypeScript, Tailwind CSS, and Framer Motion. Focused on performance, accessibility, SEO, and smooth animations. Live at https://portfolioduytrann.vercel.app/.",
+    icon: FaCode,
+    date: "08/2025",
+  },
+  {
+    title:
+      "Frontend Developer - AKTS AI Kiosk Testing System (Graduation Project)",
+    location: "FPT University, Hà Nội",
+    description:
+      "Developed the frontend of an AI-powered online examination system using React.js, TypeScript, Vite, Tailwind CSS, Formik, ESLint, and Husky. Built responsive UI, integrated real-time webcam monitoring with AI emotion recognition API, handled dynamic question types, and focused on performance optimization and code quality.",
+    icon: FaCode,
+    date: "06/2025 - 09/2025",
   },
 ];
 
@@ -115,7 +172,7 @@ export const projectsData = [
       "PayOS",
       "Zustand",
     ],
-    imageUrl: ImageSources.blog,
+    imageUrl: ImageSources.handshop,
   },
   {
     title: "GreenHappy – Eco-friendly E-commerce Platform",
