@@ -57,3 +57,5 @@ My focus is on **clean UI/UX**, **API integration**, and **performance optimizat
 ### 4. **Blog Platform**
 
 - MERN stack blog with Cloudinary integration and SEO optimization.
+
+
