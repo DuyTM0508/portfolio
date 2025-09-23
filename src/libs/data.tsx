@@ -33,7 +33,7 @@ export const experiencesData = [
     title: "Bachelor in Software Engineering",
     location: "FPT University, Hà Nội",
     description:
-      "Pursued a degree in Software Engineering with a GPA of 7.5/10. Gained foundational knowledge in frontend development, API integration, and collaborative projects.",
+      "Pursued a degree in Software Engineering with a GPA of 3.2/4. Gained foundational knowledge in frontend development, API integration, and collaborative projects.",
     icon: FaGraduationCap,
     date: "08/2021 - 08/2025",
   },
