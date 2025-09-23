@@ -57,18 +57,3 @@ My focus is on **clean UI/UX**, **API integration**, and **performance optimizat
 ### 4. **Blog Platform**
 
 - MERN stack blog with Cloudinary integration and SEO optimization.
-
----
-
-## 📦 Installation & Development
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/portfolio.git
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
