@@ -1,7 +1,8 @@
 import { ImageSources } from "@/assets";
 import { FaBriefcase, FaCode, FaGraduationCap, FaTrophy } from "react-icons/fa";
+import { Link, Experience, Project, Skill } from "./types";
 
-export const links = [
+export const links: Link[] = [
   {
     name: "Home",
     hash: "#home",
@@ -28,7 +29,7 @@ export const links = [
   },
 ];
 
-export const experiencesData = [
+export const experiencesData: Experience[] = [
   {
     title: "Bachelor in Software Engineering",
     location: "FPT University, Hà Nội",
@@ -120,7 +121,7 @@ export const experiencesData = [
   },
 ];
 
-export const projectsData = [
+export const projectsData: Project[] = [
   {
     title: "AKTS – AI Kiosk Testing System (Frontend)",
     description:
@@ -193,7 +194,7 @@ export const projectsData = [
   },
 ];
 
-export const skillsData = [
+export const skillsData: Skill[] = [
   "API Integration",
   "Bootstrap",
   "CSS3",

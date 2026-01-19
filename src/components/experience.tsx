@@ -19,8 +19,8 @@ export default function Experience() {
     <section ref={ref} id="experience" className="mb-28 sm:mb-40 scroll-mt-28">
       <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline lineColor="#e5e7eb" className="dark:line-dark">
-        {experiencesData.map((data, index) => (
-          <React.Fragment key={index}>
+        {experiencesData.map((data) => (
+          <React.Fragment key={`${data.title}-${data.date}`}>
             <VerticalTimelineElement
               icon={<data.icon />}
               contentStyle={{

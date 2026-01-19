@@ -40,9 +40,9 @@ export default function Project({
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-gray-300">{description}</p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-            {tags.map((tag, index) => (
+            {tags.map((tag) => (
               <li
-                key={index}
+                key={tag}
                 className="bg-black/[0.7] dark:bg-white/[0.1] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white dark:text-gray-200 rounded-full"
               >
                 {tag}
@@ -55,8 +55,10 @@ export default function Project({
           <Image
             src={imageUrl}
             alt={title}
-            quality={100}
-            className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:-translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:-rotate-2 group-even:-right-[initial] group-even:-left-40"
+            width={452}
+            height={300}
+            quality={95}
+            className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:-translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 group-even:-right-[initial] group-even:-left-40"
           />
         )}
       </section>

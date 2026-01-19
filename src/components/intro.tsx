@@ -32,10 +32,10 @@ export default function Intro() {
           >
             <Image
               src={ImageSources.imgProfile}
-              alt="Description"
-              width="192"
-              height="192"
-              quality="95"
+              alt="Duy Tran - Frontend Developer Profile Picture"
+              width={192}
+              height={192}
+              quality={95}
               priority={true}
               className="h-30 w-30 rounded-full border-[0.35rem] border-white dark:border-gray-800 object-cover shadow-xl"
             />
@@ -94,7 +94,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 dark:bg-gray-700 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:hover:bg-gray-600 active:scale-105 transition"
+          className="group bg-gray-900 dark:bg-gray-700 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:hover:bg-gray-600 active:scale-105 transition shadow-lg hover:shadow-xl"
           onClick={() => {
             setActiveLink("Contact");
             setTimeOfLastClick(Date.now());
@@ -105,34 +105,33 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white dark:bg-gray-800 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:border-white/20"
+          className="group bg-white dark:bg-gray-800 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:border-white/20 shadow-md hover:shadow-lg"
           href="/CV.pdf"
           download
+          aria-label="Download my CV"
         >
           Download CV{" "}
-          <HiDownload className="opacity-70 group-hover:translate-x-1 transition" />
+          <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
         </a>
 
         <a
-          className="bg-white dark:bg-gray-800 p-4 text-gray-700 dark:text-gray-200 hover:text-gray-950 dark:hover:text-gray-100 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:border-white/20"
+          className="bg-white dark:bg-gray-800 p-4 text-gray-700 dark:text-gray-200 hover:text-gray-950 dark:hover:text-gray-100 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 dark:border-white/20 shadow-md hover:shadow-lg"
           href="https://www.linkedin.com/in/duy-trần-4049212b9"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my LinkedIn profile"
         >
-          <BsLinkedin
-            color="black"
-            className="opacity-70 group-hover:translate-x-1 transition dark:text-gray-200"
-          />
+          <BsLinkedin className="text-[1.2rem]" />
         </a>
 
         <a
-          className="bg-white dark:bg-gray-800 p-4 text-gray-700 dark:text-gray-200 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 dark:hover:text-gray-100 active:scale-105 transition cursor-pointer borderBlack dark:border-white/20"
+          className="bg-white dark:bg-gray-800 p-4 text-gray-700 dark:text-gray-200 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 dark:hover:text-gray-100 active:scale-105 transition cursor-pointer border border-black/10 dark:border-white/20 shadow-md hover:shadow-lg"
           href="https://github.com/DuyTM0508"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my GitHub profile"
         >
-          <FaGithubSquare
-            color="black"
-            className="opacity-70 group-hover:translate-x-1 transition dark:text-gray-200"
-          />
+          <FaGithubSquare />
         </a>
       </motion.div>
     </section>
